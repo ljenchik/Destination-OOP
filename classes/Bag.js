@@ -1,7 +1,3 @@
-class Bag {
-
-
-}
-
+class Bag {}
 
 module.exports = Bag;
