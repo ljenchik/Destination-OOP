@@ -40,4 +40,7 @@ describe("Testing Plane class", () => {
         plane.addPassenger(passenger2);
         expect(plane.getPassengers()).toEqual([passenger, passenger2]);
     });
+    test("correct airport code", () => {
+        expect(plane.origin).toBe("LND");
+    });
 });
